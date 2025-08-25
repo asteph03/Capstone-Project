@@ -3,10 +3,10 @@
 ## Contact information
 steph2af@mail.uc.edu
 
-### Co-op and other related experiences
+## Co-op and other related experiences
 
-#### Skills/expertise areas
+## Skills/expertise areas
 
-##### Areas of interest
+## Areas of interest
 
-###### Type of project sought
+## Type of project sought
