@@ -11,7 +11,7 @@
 - Engaged in research regarding Digital Audio Signal Processing concepts, Software Architecture, and Professional Audio Production tools.
 - Designed user interface visual mock-up and implemented entire functional UI into the application.
 - Tested all aspects of the program rigorously to find bugs, and corrected those bugs individually.
-- Communicated effectively with manager who is an Audio Professional but has no programming experience.
+- Communicated effectively with manager who is an Audio Engineer but has no programming experience.
 - Improved ability and autonomy as a developer by working in a very small team.
 - Maintained frequent, descriptive, and effective version control via GitHub.
 2. Experiential Exploration Program, University of Cincinnati, Cincinnati, OH (2 quarters):
