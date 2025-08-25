@@ -25,7 +25,7 @@
 - Software: Visual Studio, Visual Studio Code, Xcode, Git, CMake, Figma, JUCE, Microsoft Office
 
 ## Areas of interest
-- Audio Software
+- Audio Plugin Software
 - Data Analysis
 - Digital Signal Processing
 
