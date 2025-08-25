@@ -6,6 +6,9 @@
 - (440)-241-4897
 
 ## Co-op and other related experiences
+1. Developer, Mixing Night Audio, Hamilton, OH (3 quarters):
+- Communicated
+2. 
 
 ## Skills/expertise areas
 
