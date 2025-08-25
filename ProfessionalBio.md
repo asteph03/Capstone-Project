@@ -3,7 +3,6 @@
 ## Contact information
 - steph2af@mail.uc.edu
 - aidansteph03@gmail.com
-- (440)-241-4897
 
 ## Co-op and other related experiences
 1. Audio Software Developer, Mixing Night Audio, Hamilton, OH (3 quarters):
