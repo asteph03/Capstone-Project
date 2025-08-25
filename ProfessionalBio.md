@@ -7,7 +7,7 @@
 ## Co-op and other related experiences
 1. Audio Software Developer, Mixing Night Audio, Hamilton, OH (3 quarters):
 - Developed a commercial audio plugin application entirely from scratch
-- Engaged in research regarding Digital Audio Signal Processing concepts, Software Architecture, and Professional Audio Production tools
+- Engaged in research regarding digital audio signal processing concepts, software architecture, and professional audio production tools
 - Implemented entire functional user interface
 - Rigorously tested all aspects of application to find bugs
 - Communicated effectively with manager who is an Audio Engineer but has no programming experience
