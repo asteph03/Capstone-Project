@@ -11,7 +11,7 @@
 - Implemented entire functional user interface
 - Rigorously tested all aspects of application to find bugs
 - Communicated effectively with manager who is an Audio Engineer but has no programming experience
-- Improved ability and autonomy working in a team of 2 developers
+- Improved ability and autonomy working in a small team of developers
 - Maintained frequent, descriptive, and effective version control via GitHub
 2. Experiential Exploration Program, University of Cincinnati, Cincinnati, OH (2 quarters):
 - Developed two fully functional audio plugin projects independently
