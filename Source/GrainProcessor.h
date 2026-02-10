@@ -13,7 +13,7 @@
  2. Fix Freeze Mode
  3. Add reverb
  4. Implement delay properly
- 5. Replace makeshift pitch-shifter with some real shi
+ 5. Replace makeshift pitch-shifter with a real one
  
  AFTER DSP:
  MAKE GUI
@@ -356,3 +356,4 @@ private:
     int writePosition = { 0 };
     bool grainFreeze = false;
 };
+
