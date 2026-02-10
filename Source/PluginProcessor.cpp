@@ -37,7 +37,8 @@ std::unique_ptr<juce::AudioProcessorParameterGroup> CapstonePluginAudioProcessor
     // Module name
     // juce::String name = delayProcessor.getName();
     // get params from module processor
-    delayProcessor.addParams(*params);
+    //delayProcessor.addParams(*params);
+    grainProcessor.addParams(*params);
 
     return params;
 }
@@ -112,13 +113,14 @@ void CapstonePluginAudioProcessor::prepareToPlay (double sampleRate, int samples
     spec.maximumBlockSize = static_cast<juce::uint32> (samplesPerBlock);
     spec.numChannels = getTotalNumInputChannels();
     
-    delayProcessor.prepare(spec);
-    
+    //delayProcessor.prepare(spec);
+    grainProcessor.prepare(spec);
 }
 
 void CapstonePluginAudioProcessor::update()
 {
-    delayProcessor.update(*parameters);
+    //delayProcessor.update(*parameters);
+    grainProcessor.update(*parameters);
 }
 
 void CapstonePluginAudioProcessor::releaseResources()
@@ -156,14 +158,17 @@ bool CapstonePluginAudioProcessor::isBusesLayoutSupported (const BusesLayout& la
 
 void CapstonePluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
+    update();
+    
     juce::ScopedNoDenormals noDenormals;
     auto totalNumInputChannels  = getTotalNumInputChannels();
     auto totalNumOutputChannels = getTotalNumOutputChannels();
 
-    auto audioBlock = dsp::AudioBlock<float>(buffer);
-    auto context = dsp::ProcessContextReplacing<float>(audioBlock);
+    //auto audioBlock = dsp::AudioBlock<float>(buffer);
+    //auto context = dsp::ProcessContextReplacing<float>(audioBlock);
+    //delayProcessor.process(context);
     
-    delayProcessor.process(context);
+    grainProcessor.process(buffer);
 }
 
 //==============================================================================
