@@ -9,7 +9,7 @@
 #pragma once
 
 #include <JuceHeader.h>
-#include "DelayProcessor.h"
+#include "GrainProcessor.h"
 
 //==============================================================================
 /**
@@ -59,7 +59,8 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
 
 private:
-    DelayProcessor delayProcessor;
+    //DelayProcessor delayProcessor;
+    GrainProcessor grainProcessor;
     
     std::unique_ptr<juce::AudioProcessorValueTreeState> parameters;
     
